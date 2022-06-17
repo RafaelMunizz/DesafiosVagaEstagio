@@ -32,8 +32,10 @@ public class Teste3_Distribuidora {
         Double mediaFaturamento = 0.0;
         Integer diasSuperiorMedia = 0;
         
+        // Caminho para o arquivo JSON
+        String url = "C:\\Users\\...\\dados.json";
         
-        try (FileReader reader = new FileReader("C:\\Users\\rafae\\OneDrive\\Documentos\\GitHub\\Target_Codes\\Teste_Target\\src\\teste_target\\Teste3_dados.json")){
+        try (FileReader reader = new FileReader(url)){
             
             JSONArray registrosLista = (JSONArray) parser.parse(reader);
             
