@@ -14,6 +14,7 @@ public class Teste2_Fibonacci {
         System.out.println(pertenceFibonacci(50));
     }
     
+    // Método que retorna o Fibonacci de um inteiro
     private static int fibonacci(int num){
         
         switch (num) {
@@ -26,6 +27,8 @@ public class Teste2_Fibonacci {
         }
     }
     
+    // Método que analisará se o valor faz parte da 
+    // sequência e retornará um booleano
     public static boolean pertenceFibonacci(int num){
         
         int i = 0;
