@@ -89,22 +89,14 @@ public class Teste3_Distribuidora {
         
         /////////// DADOS ///////////
         
-        //System.out.print("Dia de menor faturamento no mês: ");
-        //System.out.println(dataMenorFaturamento);
-        System.out.print("Valor do menor faturamento: ");
-        System.out.println(menorFaturamento);
-        //System.out.print("Dia de maior faturamento no mês: ");
-        //System.out.println(dataMaiorFaturamento);
-        System.out.print("Valor do maior faturamento: ");
-        System.out.println(maiorFaturamento);
-        //System.out.print("Total de faturamento do mês: ");
-        //System.out.println(TotalFaturamento);
-        //System.out.print("Quantidade de dias que houveram faturamento: ");
-        //System.out.println(diasFaturamento);
-        //System.out.print("Média de faturamento no mês: ");
-        //System.out.println(mediaFaturamento);
-        System.out.print("Quantidade de dias com média de faturamento superior a mensal: ");
-        System.out.println(diasSuperiorMedia);
+        //System.out.printf("Dia de menor faturamento no mês: %d", dataMenorFaturamento);
+        System.out.printf("Valor do menor faturamento: %f\n", menorFaturamento);
+        //System.out.printf("Dia de maior faturamento no mês: %d\n", dataMaiorFaturamento);
+        System.out.printf("Valor do maior faturamento: %f\n", maiorFaturamento);
+        //System.out.printf("Total de faturamento do mês: %f\n", TotalFaturamento);
+        //System.out.printf("Quantidade de dias que houveram faturamento: %d\n", diasFaturamento);
+        //System.out.printf("Média de faturamento no mês: %f\n", mediaFaturamento);
+        System.out.printf("Quantidade de dias com média de faturamento superior a mensal: %d\n", diasSuperiorMedia);
     
     }
 }
